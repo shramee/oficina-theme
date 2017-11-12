@@ -1,0 +1,27 @@
+{
+  "name": "storefront-sassy-child",
+  "version": "0.0.1",
+  "description": "Blank Woothemes Storefront child theme with SASS, GULP and browser-sync.",
+  "main": "index.php",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shramee/storefront-sassy-child"
+  },
+  "author": "Shramee",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/shramee/storefront-sassy-child/issues"
+  },
+  "homepage": "https://github.com/shramee/storefront-sassy-child#readme",
+  "devDependencies": {
+    "autoprefixer": "",
+    "browser-sync": "",
+    "gulp": "",
+    "gulp-postcss": "",
+    "gulp-sass": "",
+    "gulp-sourcemaps": ""
+  }
+}
