@@ -7,5 +7,5 @@
  * Description:  	Blank Woothemes Storefront child theme with SASS, GULP and browser-sync.
  * Version:      	1.0.0
  * License:      	GNU General Public License v2 or later
- */body{background:#0cf}
+ */body.oficina{background:center/100% url("assets/bg.jpg")}.demo-posts-wrap{column-count:3}.demo-posts-wrap img{margin-bottom:16px}#masthead{background:none;border-bottom:none}#masthead .site-branding{width:100%}#masthead .site-branding img{float:left}#masthead .site-branding .site-title,#masthead .site-branding .site-description{float:right;clear:none;background:rgba(255,255,255,0.5);padding:7px 11px}#side-menu{position:fixed;left:0;top:calc( 25vh );background:#000;color:#fff;font:20px sans-serif;padding:0.7em 0;width:128px;text-align:right;transform:translateX(-100%);transition:transform 0.35s}#side-menu:hover{transform:translateX(0%)}#side-menu ul,#side-menu li,#side-menu a{display:block;margin:0;padding:0;color:inherit}#side-menu a{margin-bottom:0.3em;padding:0.5em 1em}#side-menu li:last-of-type a{margin-bottom:0}#side-menu .side-menu-toggle{position:absolute;top:0;left:100%;background:#000;transform:rotate(-90deg) translateX(-100%);transform-origin:0 0;border-radius:0 0 7px 7px;text-transform:uppercase;cursor:pointer}.oficina .site-footer{padding:1.6em 0;background:none}.oficina .site-info{padding:0}
 /*# sourceMappingURL=style.css.map */

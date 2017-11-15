@@ -23,17 +23,23 @@ gulp.task( 'css', function () {
 		.pipe( gulp.dest() );
 } );
 
-// Watch everything
-gulp.task( 'watch', function () {
+// Init broswer sync
+gulp.task( 'browserSyncInit', function () {
 	browserSync.init( {
 		open: 'external',
-		proxy: 'localhost', // This should be address of your localhost
+		proxy: 'wp', // This should be address of your localhost
 		port: 80, // Port your local server listens to
+//		online: true, // Removes the delay on init
 	} );
+	browserSync.reload();
+} );
+
+// Watch everything
+gulp.task( 'watch', function () {
 	gulp.watch( ['**/*.css', '**/*.scss'], ['css'] );
 	gulp.watch( '**/*' ).on( 'change', browserSync.reload );
 } );
 
 
 // Default task (runs at initiation: gulp --verbose)
-gulp.task( 'default', ['watch'] );
+gulp.task( 'default', ['browserSyncInit', 'watch'] );

@@ -9,6 +9,8 @@
  * License:      	GNU General Public License v2 or later
  */
 
- body {
-	 background: #0cf;
- }
+@import 'sass/base';
+
+@import 'sass/header';
+
+@import 'sass/footer';

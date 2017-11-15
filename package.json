@@ -17,11 +17,11 @@
   },
   "homepage": "https://github.com/shramee/storefront-sassy-child#readme",
   "devDependencies": {
-    "autoprefixer": "",
-    "browser-sync": "",
-    "gulp": "",
-    "gulp-postcss": "",
-    "gulp-sass": "",
-    "gulp-sourcemaps": ""
+    "autoprefixer": "*",
+    "browser-sync": "*",
+    "gulp": "*",
+    "gulp-postcss": "*",
+    "gulp-sass": "*",
+    "gulp-sourcemaps": "*"
   }
 }
