@@ -3,12 +3,14 @@
 	border-bottom: none;
 	.site-branding {
 		width: 100%;
+		.site-title,
+		.site-description,
 		img {
 			float: left;
 		}
 		.site-title,
 		.site-description {
-			float: right;
+			margin-left: 1em;
 			clear: none;
 			background: rgba(255,255,255,0.5);
 			padding: 7px 11px;
