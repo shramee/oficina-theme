@@ -1,5 +1,7 @@
 <?php
 
+remove_action( 'wp_footer', 'fsb_display_image' );
+
 /** Don't show sidebar */
 function storefront_get_sidebar() {}
 

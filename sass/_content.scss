@@ -1,11 +1,95 @@
-.content-wrap {
-	> div {
+.site-main {
+	position: relative;
+}
+
+.home-posts-bg {
+	position: absolute;
+	top: 0;
+	left: 2%;
+	right: 2%;
+	margin-top: 23%;
+}
+.home-posts-wrap {
+	article {
 		float: left;
-	}
-	.cat-image {
-		width: 30%;
+		width: 47%;
 		margin: 1.6%;
-		padding-top: 34%;
 		background: center/cover;
+		overflow: hidden;
+		li,p {
+			overflow: hidden;
+			margin: auto;
+			display: block;
+			line-height: 25px;
+		}
+	}
+}
+
+@media screen and (min-width:1024px) {
+	.home-posts-wrap {
+		article {
+			width: 30%;
+		}
+		.H-TEXT1 {
+			width: 61.6%;
+			margin: .5%;
+			p {
+				max-height: 75px;
+			}
+		}
+		.H-TEXT2 {
+			padding: 35px 50px 0 0;
+			p {
+				max-height: 124px;
+			}
+		}
+		.H-TEXT3 {
+			p {
+				max-height: 124px;
+			}
+		}
+		.H-PEOPLE {
+			margin-bottom: 52%;
+		}
+		.H-DRINKS {
+			padding: 7px 50px;
+			margin-bottom: 52%;
+		}
+		.H-FOOD1 {
+			max-height: 277px;
+		}
+		.H-FOOD2 {
+			max-height: 300px;
+			margin-bottom: 27%;
+		}
+		.sidebar-NR1, .PLACE1 {
+			margin-left: -43px;
+		}
+		.post-vid-wrap {
+			.post-vid {
+				padding-top: 52%;
+				position: relative;
+
+			}
+			iframe {
+				position: absolute;
+				top: 0;
+				right: 0;
+				bottom: 0;
+				left: 0;
+				height: auto;
+				width: auto;
+			}
+		}
+		.H-PICS1 {
+			padding: 0 50px 0 25px;
+		}
+		.PLACE1 {
+			max-height: 320px;
+		}
+
+		.sidebar-NR1 li {
+			max-height: 128px;
+		}
 	}
 }

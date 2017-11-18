@@ -1,4 +1,11 @@
 <?php
+/** Enqueue home scripts */
+function oficina_enqueue() {
+	if ( is_home() ) {
+		wp_enqueue_script( 'oficina-home', get_stylesheet_directory_uri() . '/script.js', [ 'jquery', 'masonry' ] );
+	}
+}
+add_action( 'wp_enqueue_scripts', 'oficina_enqueue' );
 
 /** Site branding wrapper and display */
 function storefront_site_branding() {

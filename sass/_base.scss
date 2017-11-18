@@ -1,3 +1,25 @@
 body.oficina {
 	background: center/100% url('assets/bg.jpg');
 }
+
+.col-full {
+	max-width: 988px;
+}
+
+.white-bg {
+	background-color: rgba(255,255,255,0.5) !important;
+	padding: 16px;
+	box-shadow: 0 0 2px rgba(0,0,0,0.5);
+	margin: 3px;
+}
+
+.dbg-center {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	text-align: center;
+	background: rgba(0,0,0,0.5);
+	color: #ffffff;
+	padding: 5px 11px;
+}
