@@ -5,8 +5,8 @@
 .home-posts-bg {
 	position: absolute;
 	top: 0;
-	left: 2%;
-	right: 2%;
+	left: -2%;
+	right: 0;
 	margin-top: 23%;
 }
 .home-posts-wrap {
@@ -49,18 +49,23 @@
 			}
 		}
 		.H-PEOPLE {
-			margin-bottom: 52%;
+			margin-bottom: 38%;
 		}
 		.H-DRINKS {
-			padding: 7px 50px;
+			padding: 7px 56px;
 			margin-bottom: 52%;
 		}
 		.H-FOOD1 {
+			padding: 0 7px;
 			max-height: 277px;
 		}
 		.H-FOOD2 {
+			padding: 0 16px;
 			max-height: 300px;
-			margin-bottom: 27%;
+			margin-bottom: 41%;
+		}
+		.PEOPLE, .PEOPLE1, .PEOPLE2, .PEOPLE3 {
+			padding: 7px 25px 16px;
 		}
 		.sidebar-NR1, .PLACE1 {
 			margin-left: -43px;

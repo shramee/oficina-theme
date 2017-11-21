@@ -1,5 +1,8 @@
 jQuery( function( $ ) {
-	$('.home-posts-wrap').masonry( {
-		items: 'article',
+	var $homePosts = $('.home-posts-wrap');
+	$homePosts.imagesLoaded( function () {
+		$homePosts.masonry( {
+			itemSelector: 'article',
+		} );
 	} );
 } );

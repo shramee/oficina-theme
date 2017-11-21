@@ -54,7 +54,7 @@ $h_vid = rnd_post_from_cat( 'H-VIDEO' );
 					</div>
 				</article>
 				<?php rnd_post_img_from_cat( 'H-PICS2' ) ?>
-				<?php rnd_post_img_from_cat( 'FOOD' ) ?>
+				<?php //rnd_post_img_from_cat( 'FOOD' ) ?>
 				<?php rnd_post_img_from_cat( 'PRESS' ) ?>
 			</div>
 
