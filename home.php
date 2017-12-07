@@ -17,8 +17,8 @@ $h_vid = rnd_post_from_cat( 'H-VIDEO' );
 		<main id="main" class="site-main" role="main">
 			<img class="home-posts-bg" src="<?php echo get_stylesheet_directory_uri() ?>/assets/body_image.png">
 			<?php rnd_post_img_from_cat( 'H-OVER1' ) ?>
-			<?php rnd_post_img_from_cat( 'H-OVER2' ) ?>
-			<?php rnd_post_img_from_cat( 'H-OVER3' ) ?>
+			<?php rnd_post_img_from_cat( 'H-OVER2', '', 'http://www.0422422422.it/demoficina/' ) ?>
+			<?php rnd_post_img_from_cat( 'H-OVER3', '', 'http://www.0422422422.it/demoficina/' ) ?>
 
 			<div class="home-posts-wrap">
 				<?php rnd_post_img_from_cat( 'H-PEOPLE' ) ?>

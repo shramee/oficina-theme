@@ -22,14 +22,20 @@ function rnd_post_from_cat( $cat ) {
  * @param string $cat
  * @param string $classes
  */
-function rnd_post_img_from_cat( $cat, $classes = '' ) {
+function rnd_post_img_from_cat( $cat, $classes = '', $link = null ) {
 	/** @var WP_Post $post */
 	$post = rnd_post_from_cat( $cat );
 
 	if ( $post ) {
 		echo "<article class='post-img-wrap $cat $classes'>";
+		if ( $link ) {
+			echo "<a href='$link'>";
+		}
 		echo get_the_post_thumbnail( $post[0]->ID, 'medium_large' );
 		echo isset( $_GET['testing'] ) ? "<span class='dbg-center'>$cat</span>" : '';
+		if ( $link ) {
+			echo "</a>";
+		}
 		echo '</article>';
 	} else if ( $GLOBALS['oficina_admin'] ) {
 		echo "<article class='no-cat-image $cat-image $classes'><span>No post found for <b>$cat</b></span></article>";

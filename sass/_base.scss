@@ -7,7 +7,19 @@ body.oficina {
 }
 
 .col-full {
-	max-width: 988px;
+	max-width: 1600px;
+}
+
+@media (min-width:1200px) {
+	.col-full {
+		width: 92vw;
+	}
+}
+
+@media (min-width:1600px) {
+	.col-full {
+		width: 88vw;
+	}
 }
 
 .white-bg {
