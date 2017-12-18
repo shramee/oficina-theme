@@ -11,6 +11,7 @@ add_filter( 'body_class', function( $classes ) {
 	return array_merge( $classes, [ 'oficina' ] );
 } );
 
+require 'inc/tweaks.php';
 require 'inc/template-tags.php';
 
 require 'inc/header.php';
