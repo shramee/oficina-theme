@@ -53,7 +53,7 @@ function rnd_post_xrt_from_cat( $cat, $classes = '' ) {
 	$post = rnd_post_from_cat( $cat );
 
 	if ( $post ) {
-		echo "<article class='post-xrt-wrap $cat $classes'><div class='white-bg'><p>";
+		echo "<article class='post-xrt-wrap $cat $classes'><div class='padded'><p>";
 		echo $post[0]->post_excerpt ? $post[0]->post_excerpt : $post[0]->post_content;
 		echo '</p></div></article>';
 	} else if ( $GLOBALS['oficina_admin'] ) {
